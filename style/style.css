@@ -1,7 +1,10 @@
+/*general rules*/
 *{
   margin: 0;
   padding: 0;
 }
+
+
 /*header section*/
 header{
   background-color: white;
@@ -18,6 +21,7 @@ header{
   font-size: 14px;
   font-weight: bold;
 }
+
 /* .logo elements are too close togather.. tried to change it using
 justify-content: space-between; but did not succeed*/
 .logo{
@@ -34,7 +38,32 @@ a{
 }*/
 
 header nav a{
-    color: balck;
+  color: balck;
   display: inline-block;
   padding-right: 40px;
+}
+
+
+/*main section*/
+.articles{
+  position: relative;
+  top: 110px;
+  width: 100%;
+  border: 1px solid grey;
+  display: flex;
+}
+
+.articles .left{
+  border: 2px solid grey;
+  width: 630px;
+  display: flex;
+}
+.articles .center{
+  width: 300px;
+}
+
+.articles .small{
+  border: 2px solid grey;
+  width: 240%;
+  display: flex;
 }
