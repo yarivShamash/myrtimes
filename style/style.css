@@ -57,9 +57,30 @@ header nav a{
   border: 2px solid grey;
   width: 630px;
   display: flex;
+  flex-wrap: wrap;
+}
+.articles .left .main{
+  border: 2px solid grey;
+  width: 630px;
+}
+.articles .left .sub{
+  border: 2px solid grey;
+  width: 311px;
 }
 
 .articles .center{
+  border: 2px solid grey;
+  width: 300px;
+  flex-wrap: wrap;
+}
+
+.articles .center .main{
+  border: 2px solid grey;
+  width: 300px;
+}
+
+.articles .center .sub{
+  border: 2px solid grey;
   width: 300px;
 }
 
