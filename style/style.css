@@ -4,7 +4,18 @@
   padding: 0;
 }
 
+h1{
+  font-family: georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
 
+p{
+  font-family: georgia;
+  font-size: 17px;
+  color: black;
+}
 /*header section*/
 header{
   background-color: white;
@@ -44,7 +55,7 @@ header nav a{
 }
 
 
-/*main section*/
+/*article section*/
 .articles{
   position: relative;
   top: 110px;
@@ -59,15 +70,47 @@ header nav a{
   display: flex;
   flex-wrap: wrap;
 }
+
+/*the main article*/
 .articles .left .main{
   border: 2px solid grey;
   width: 630px;
+
 }
-.articles .left .sub{
+.articles .left .main .title{
+  display: flex;
+  width: 630px;
+  height: 300px;
+  background-image: url(./images/img-story-main.png)
+}
+
+/* small article to the left*/
+.articles .left .sub1{
   border: 2px solid grey;
   width: 311px;
 }
 
+.articles .left .sub1 .title{
+  display: flex;
+  width: 310px;
+  height: 300px;
+  background-image: url(./images/img-story-2.png)
+}
+
+/* small article to the right*/
+.articles .left .sub2{
+  border: 2px solid grey;
+  width: 311px;
+}
+
+.articles .left .sub2 .title{
+  display: flex;
+  width: 310px;
+  height: 300px;
+  background-image: url(./images/img-story-3.png)
+}
+
+/* center column articles*/
 .articles .center{
   border: 2px solid grey;
   width: 300px;
@@ -79,13 +122,28 @@ header nav a{
   width: 300px;
 }
 
-.articles .center .sub{
+.articles .center .title{
   border: 2px solid grey;
-  width: 300px;
+  width: 296px;
+  height: 300px;
+  background-image: url(./images/img-story-1.png)
 }
 
+.articles .center .sub{
+  border: 2px solid grey;
+  width: 296px;
+}
+
+/* small article to the right*/
 .articles .small{
   border: 2px solid grey;
-  width: 240%;
+  width: 240px;
   display: flex;
+  flex-wrap: wrap;
+}
+
+.articles .small .image{
+  background-image: url(./images/img-news-bite.png);
+  width: 236px;
+  height: 236px;
 }
