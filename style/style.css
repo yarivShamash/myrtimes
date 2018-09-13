@@ -60,23 +60,24 @@ header nav a{
   position: relative;
   top: 110px;
   width: 100%;
-  border: 1px solid grey;
   display: flex;
 }
 
+/*flex container left side*/
 .articles .left{
-  border: 2px solid grey;
+  margin-right: 10px;
   width: 630px;
   display: flex;
   flex-wrap: wrap;
+  align-items: stretch;
 }
 
 /*the main article*/
 .articles .left .main{
-  border: 2px solid grey;
+  padding-bottom: 10px;
   width: 630px;
-
 }
+
 .articles .left .main .title{
   display: flex;
   width: 630px;
@@ -86,64 +87,60 @@ header nav a{
 
 /* small article to the left*/
 .articles .left .sub1{
-  border: 2px solid grey;
-  width: 311px;
+  margin-right: 10px;
+  width: 306px;
 }
 
 .articles .left .sub1 .title{
   display: flex;
-  width: 310px;
+  width: 305px;
   height: 300px;
   background-image: url(./images/img-story-2.png)
 }
 
 /* small article to the right*/
 .articles .left .sub2{
-  border: 2px solid grey;
-  width: 311px;
+  width: 306px;
 }
 
 .articles .left .sub2 .title{
   display: flex;
-  width: 310px;
+  width: 305px;
   height: 300px;
   background-image: url(./images/img-story-3.png)
 }
 
 /* center column articles*/
 .articles .center{
-  border: 2px solid grey;
+  margin-right: 10px;
   width: 300px;
   flex-wrap: wrap;
 }
 
 .articles .center .main{
-  border: 2px solid grey;
   width: 300px;
+  padding-bottom: 10px;
 }
 
 .articles .center .title{
-  border: 2px solid grey;
   width: 296px;
   height: 300px;
-  background-image: url(./images/img-story-1.png)
+  background-image: url(./images/img-story-1.png);
+  margin-bottom: 10px;
 }
 
 .articles .center .sub{
-  border: 2px solid grey;
   width: 296px;
 }
 
 /* small article to the right*/
 .articles .small{
-  border: 2px solid grey;
   width: 240px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .articles .small .image{
-  background-image: url(./images/img-news-bite.png);
   width: 236px;
   height: 236px;
 }
