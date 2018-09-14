@@ -177,17 +177,21 @@ footer{
   position: relative;
   top: 160px;
   height: 100px;
-  width: 800px;
+  width: 100%;
   background-color: mediumaquamarine;
   margin: auto;
   font-family: verdana;
   font-size: 12px;
   justify-content: center;
   align-items: center;
-  flex-wrap:wrap;
+  flex-direction: column;
 }
 
-footer .title{
+footer .footnav {
+  display: block;
+  margin-bottom: 30px;
+}
+footer .footnav .title{
   font-family: georgia;
   font-size: 16px;
   font-weight: bold;
@@ -199,9 +203,6 @@ footer .title{
   margin-right: 20px;
 }
 
-footer .footnav {
-  display: block;
-}
 
 footer .footnav a {
   padding: 20px;
